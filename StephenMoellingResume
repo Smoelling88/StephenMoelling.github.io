@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephen Moelling - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            border-bottom: 2px solid #2980b9;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .contact-info {
+            text-align: center;
+            color: #34495e;
+            margin-bottom: 20px;
+        }
+        .contact-info a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .job {
+            margin-bottom: 15px;
+        }
+        .job h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #2c3e50;
+        }
+        .job .title {
+            font-weight: bold;
+            color: #34495e;
+        }
+        .job .date-location {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+        }
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills-grid, .awards-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skills-grid li, .awards-grid li {
+            flex: 1 1 45%;
+        }
+        @media (max-width: 600px) {
+            .skills-grid li, .awards-grid li {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stephen Moelling</h1>
+        <div class="contact-info">
+            <p>7337 Brightwater Rd, Fort Worth, TX 76132 | (817) 936-7914 | 
+            <a href="mailto:Stephen.moelling@icloud.com">Stephen.moelling@icloud.com</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Aspiring cybersecurity professional passionate about protecting digital systems and data from evolving threats. Eager to gain and apply foundational knowledge in networking, encryption, and risk assessment to support threat detection, incident response, and security best practices as part of a collaborative team!</p>
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <div class="job">
+                <h3>Service Technician II</h3>
+                <p class="title">Tesla Motors Inc., Frisco, TX</p>
+                <p class="date-location">January 2024 – July 2025</p>
+                <ul>
+                    <li>Skilled in high-voltage diagnostics, battery repairs, software troubleshooting, and component-level fixes using proprietary tools.</li>
+                    <li>Excelled in fast-paced environments, ensuring safety, efficiency, and top customer satisfaction while mentoring peers and resolving complex EV issues.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Server</h3>
+                <p class="title">On The Border, Weatherford, TX</p>
+                <p class="date-location">July 2019 – September 2021</p>
+                <ul>
+                    <li>Greeted customers and provided an excellent first impression, ensuring a positive dining experience.</li>
+                    <li>Quickly and accurately processed orders, performed quality checks, and delivered food while maintaining high customer satisfaction.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Apprentice Electrician</h3>
+                <p class="title">Brandt Companies, Carrolton, TX</p>
+                <p class="date-location">June 2017 – July 2019</p>
+                <ul>
+                    <li>Hands-on experience installing, maintaining, and troubleshooting electrical systems in commercial buildings.</li>
+                    <li>Proficient in reading blueprints, conduit bending, wiring panels, and adhering to NEC codes and safety protocols.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Forklift Operator</h3>
+                <p class="title">Home Depot, Fort Worth, TX</p>
+                <p class="date-location">December 2015 – June 2017</p>
+                <ul>
+                    <li>Forklift certified (stand-up reach and sit-down counterbalance models), ensuring safe and efficient material handling and stock replenishment.</li>
+                    <li>Delivered exceptional customer service in a fast-paced retail environment.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Project Coordinator</h3>
+                <p class="title">Gabriel Home Renovations, Fort Worth, TX</p>
+                <p class="date-location">January 2013 – November 2015</p>
+                <ul>
+                    <li>Excelled in lead generation, delivering accurate customer quotes, and supporting on-site crews to ensure project success.</li>
+                    <li>Bridged client acquisition with field execution, driving revenue growth and operational efficiency.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Project Manager Assistant & Curriculum Designer</h3>
+                <p class="title">United States Marine Corps, Headquarters, Yuma, AZ</p>
+                <p class="date-location">February 2012 – August 2012</p>
+                <ul>
+                    <li>Provided decision support to Senior Project Manager for a squadron of over 700 personnel in living arrangements, event management, and policy review.</li>
+                    <li>Managed professional education installations for over 3,000 personnel.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Air Traffic Controller</h3>
+                <p class="title">United States Marine Corps, Headquarters, Okinawa, Japan</p>
+                <p class="date-location">August 2007 – February 2012</p>
+                <ul>
+                    <li>Dual-certified in radar precision approach and tower operations, managing high-tempo military airspace.</li>
+                    <li>Directed aircraft separations, coordinated emergency responses, and ensured 100% mission safety while maintaining FAA and DoD compliance.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Key Skills</h2>
+            <ul class="skills-grid">
+                <li>Secret Clearance</li>
+                <li>Administrative Assistant</li>
+                <li>Process Improvement</li>
+                <li>Education Management Support</li>
+                <li>Military Leadership and Experience</li>
+                <li>Data and Radar Controller</li>
+                <li>Project Coordination Assistant</li>
+                <li>Quality Assurance</li>
+                <li>MS Office Skills</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>Associate in Arts</strong><br>Tarrant County College</p>
+            <p><strong>Certificate: ATC Specialist Certificate</strong><br>Air Traffic Control School, 2008</p>
+        </div>
+
+        <div class="section">
+            <h2>Professional Affiliations</h2>
+            <ul>
+                <li>Marine Corps ATC Controllers – Member</li>
+                <li>Military Public Affairs Professionals – Member</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technology Summary</h2>
+            <ul>
+                <li>MS Office</li>
+                <li>Adobe Pro</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Personal Awards</h2>
+            <ul class="awards-grid">
+                <li>Navy Achievement Medal</li>
+                <li>25 Letters of Appreciation, USMC</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
